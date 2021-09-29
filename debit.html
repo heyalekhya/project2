@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment checkout form</title>
+    <link rel="stylesheet" href="debit.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="payment">
+            <div class="payment-logo">
+                <p>p</p>
+            </div>
+            <h2>Payment Gateway</h2>
+            
+            <div class="form icon-relative">
+                <div class="card space icon-relative">
+                    <label class="label">Amount:</label>
+                    <input type="number" name="Amount" class="input" placeholder="Enter amount">
+                    <i class="fas fa-rupee-sign"></i>
+                </div>
+                
+                <div class="card space icon-relative">
+                    <label class="label">Card Holder:</label>
+                    <input type="text" name="card_holder" class="input" placeholder="Leaf Now">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="card space icon-relative">
+                    <label class="label">Card Number:</label>
+                    <input type="text" name="card_number" class="input" placeholder="Card Number">
+                    <i class="fas fa-credit-card"></i>
+                </div>
+                <div class="card-grp space icon-relative">
+                    <div class="card-item">
+                        <label class="label">Expiry Date:</label>
+                        <input type="text" name="expiry-date" class="input" placeholder="00 / 00">  
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+
+                    <div class="card-item space icon-relative">
+                        <label class="label">CVC:</label>
+                        <input type="text" name="cvc" class="input" placeholder="000">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                <a href="index_print.html" class="btn1">Pay</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
